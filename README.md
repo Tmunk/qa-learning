@@ -18,3 +18,15 @@ This repository contains sample tests for practicing Python + pytest automation.
 ## Notes
 - The tests demonstrate parameterized testing for positive and negative login scenarios.  
 - HTML reports provide a clear summary of test results.
+
+### Running Tests with HTML Report
+
+### Activate the virtual environment:
+
+source venv/bin/activate
+
+Run tests and generate an HTML report:
+pytest --html=reports/report.html -v
+
+Open the report:
+Open reports/report.html in a browser to view the results.

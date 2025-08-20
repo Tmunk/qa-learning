@@ -1,6 +1,7 @@
-#tests/test_sample.py
-
+#tests/unit/test_sample.py
+from qa_learning.app import login
 import pytest
+
 
 def test_login(sample_data):
     assert sample_data["username"] == "munky"
@@ -10,6 +11,7 @@ def test_login(sample_data):
     ("wronguser", "password123", False),
     ("munky", "wrongpass", False),
 ])
+
 def test_login_with_params(username, password, expected_result):
-    login_success = username == "munky" and password == "password123"
+    login_success = login(username, password)
     assert login_success == expected_result
