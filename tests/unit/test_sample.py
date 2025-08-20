@@ -10,6 +10,8 @@ def test_login(sample_data):
     ("munky", "password123", True),
     ("wronguser", "password123", False),
     ("munky", "wrongpass", False),
+    ("", "", False),          # empty fields
+    ("!@#", "%$#", False),    # special characters
 ])
 
 def test_login_with_params(username, password, expected_result):
