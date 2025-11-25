@@ -1,7 +1,7 @@
-Title:
+Title: Verify that the login button functions correctly
 
-Preconditions:
+Preconditions: User has entered a valid username and password.
 
-Steps:
+Steps: Step 1) go to login page. Step 2) Enter username and password. Step 3) Click Login button.
 
-Expected Result:
+Expected Result: User should be directed to the main account dashboard page
