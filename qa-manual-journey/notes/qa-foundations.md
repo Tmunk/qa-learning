@@ -13,4 +13,4 @@ A bug report is a document that explains a problem in the software, how to repro
 
 - Learned how to write a basic test case (title, preconditions, steps, expected result)
   
-- Practiced writing my first bug report based on an error message on a login page
+- Practiced writing my first bug report based on an error message on a login page.
